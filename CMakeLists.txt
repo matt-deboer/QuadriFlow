@@ -26,7 +26,7 @@ set(LEMON_3RD_PATH 3rd/lemon-1.3.1)
 find_path(
     LEMON_SOURCE_ROOT_DIR
     CMakeLists.txt
-    PATHS ${CMAKE_SOURCE_DIR}/${LEMON_3RD_PATH} NO_DEFAULT_PATH
+    PATHS ${CMAKE_CURRENT_SOURCE_DIR}/${LEMON_3RD_PATH} NO_DEFAULT_PATH
     DOC "Location of LEMON source as a CMAKE subproject"
 )
 
