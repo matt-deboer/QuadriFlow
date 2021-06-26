@@ -108,36 +108,36 @@ endif(BUILD_FREE_LICENSE)
 set(
     quadriflow_SRC
     src/adjacent-matrix.cpp
-    src/adjacent-matrix.hpp
-    src/compare-key.hpp
-    src/config.hpp
+    include/qflow/adjacent-matrix.hpp
+    include/qflow/compare-key.hpp
+    include/qflow/config.hpp
     src/dedge.cpp
-    src/dedge.hpp
-    src/disajoint-tree.hpp
-    src/dset.hpp
-    src/field-math.hpp
-    src/flow.hpp
+    include/qflow/dedge.hpp
+    include/qflow/disajoint-tree.hpp
+    include/qflow/dset.hpp
+    include/qflow/field-math.hpp
+    include/qflow/flow.hpp
     src/hierarchy.cpp
-    src/hierarchy.hpp
+    include/qflow/hierarchy.hpp
     src/loader.cpp
-    src/loader.hpp
+    include/qflow/loader.hpp
     src/localsat.cpp
-    src/localsat.hpp
+    include/qflow/localsat.hpp
     src/main.cpp
     src/merge-vertex.cpp
-    src/merge-vertex.hpp
+    include/qflow/merge-vertex.hpp
     src/optimizer.cpp
-    src/optimizer.hpp
+    include/qflow/optimizer.hpp
     src/parametrizer.cpp
     src/parametrizer-flip.cpp
     src/parametrizer-int.cpp
     src/parametrizer-mesh.cpp
     src/parametrizer-scale.cpp
     src/parametrizer-sing.cpp
-    src/parametrizer.hpp
-    src/serialize.hpp
+    include/qflow/parametrizer.hpp
+    include/qflow/serialize.hpp
     src/subdivide.cpp
-    src/subdivide.hpp
+    include/qflow/subdivide.hpp
 )
 
 add_executable(
