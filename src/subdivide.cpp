@@ -1,12 +1,12 @@
-#include "subdivide.hpp"
+#include "qflow/subdivide.hpp"
 
 #include <fstream>
 #include <queue>
 
-#include "dedge.hpp"
-#include "disajoint-tree.hpp"
-#include "field-math.hpp"
-#include "parametrizer.hpp"
+#include "qflow/dedge.hpp"
+#include "qflow/disajoint-tree.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/parametrizer.hpp"
 
 namespace qflow {
 

@@ -1,6 +1,6 @@
-#include "config.hpp"
-#include "field-math.hpp"
-#include "parametrizer.hpp"
+#include "qflow/config.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/parametrizer.hpp"
 
 namespace qflow {
 

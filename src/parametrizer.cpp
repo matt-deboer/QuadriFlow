@@ -1,13 +1,13 @@
-#include "parametrizer.hpp"
-#include "config.hpp"
-#include "dedge.hpp"
-#include "field-math.hpp"
-#include "flow.hpp"
-#include "localsat.hpp"
-#include "optimizer.hpp"
-#include "subdivide.hpp"
+#include "qflow/parametrizer.hpp"
+#include "qflow/config.hpp"
+#include "qflow/dedge.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/flow.hpp"
+#include "qflow/localsat.hpp"
+#include "qflow/optimizer.hpp"
+#include "qflow/subdivide.hpp"
 
-#include "dset.hpp"
+#include "qflow/dset.hpp"
 
 #include <Eigen/Sparse>
 #include <fstream>

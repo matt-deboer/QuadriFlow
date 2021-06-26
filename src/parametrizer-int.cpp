@@ -1,10 +1,10 @@
-#include "parametrizer.hpp"
+#include "qflow/parametrizer.hpp"
 
 #include <queue>
 #include <unordered_map>
 #include <vector>
 #include <random>
-#include "optimizer.hpp"
+#include "qflow/optimizer.hpp"
 
 namespace qflow {
 

@@ -1,5 +1,5 @@
-#include "dedge.hpp"
-#include "parametrizer.hpp"
+#include "qflow/dedge.hpp"
+#include "qflow/parametrizer.hpp"
 
 #include <algorithm>
 #include <queue>

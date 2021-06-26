@@ -1,4 +1,4 @@
-#include "optimizer.hpp"
+#include "qflow/optimizer.hpp"
 
 #include <Eigen/Sparse>
 #include <cmath>
@@ -8,10 +8,10 @@
 #include <queue>
 #include <unordered_map>
 
-#include "config.hpp"
-#include "field-math.hpp"
-#include "flow.hpp"
-#include "parametrizer.hpp"
+#include "qflow/config.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/flow.hpp"
+#include "qflow/parametrizer.hpp"
 
 namespace qflow {
 

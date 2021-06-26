@@ -1,7 +1,7 @@
-#include "config.hpp"
-#include "field-math.hpp"
-#include "optimizer.hpp"
-#include "parametrizer.hpp"
+#include "qflow/config.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/optimizer.hpp"
+#include "qflow/parametrizer.hpp"
 #include <stdlib.h>
 
 #ifdef WITH_CUDA

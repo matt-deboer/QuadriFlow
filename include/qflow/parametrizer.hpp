@@ -12,12 +12,12 @@
 #include <map>
 #include <set>
 #include <unordered_set>
-#include "adjacent-matrix.hpp"
-#include "disajoint-tree.hpp"
-#include "field-math.hpp"
-#include "hierarchy.hpp"
-#include "post-solver.hpp"
-#include "serialize.hpp"
+#include "qflow/adjacent-matrix.hpp"
+#include "qflow/disajoint-tree.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/hierarchy.hpp"
+#include "qflow/post-solver.hpp"
+#include "qflow/serialize.hpp"
 
 namespace qflow {
 

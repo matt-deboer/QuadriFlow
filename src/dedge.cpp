@@ -1,14 +1,14 @@
-#include "dedge.hpp"
-#include "config.hpp"
+#include "qflow/dedge.hpp"
+#include "qflow/config.hpp"
 
 #include <atomic>
 #include <fstream>
 #include <iostream>
 #include <set>
 #include <vector>
-#include "compare-key.hpp"
+#include "qflow/compare-key.hpp"
 #ifdef WITH_TBB
-#include "tbb/tbb.h"
+#include "qflow/tbb/tbb.h"
 #endif
 namespace qflow {
 

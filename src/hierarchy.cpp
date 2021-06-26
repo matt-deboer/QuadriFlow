@@ -1,12 +1,12 @@
-#include "hierarchy.hpp"
+#include "qflow/hierarchy.hpp"
 #include <fstream>
 #include <algorithm>
 #include <unordered_map>
-#include "config.hpp"
-#include "field-math.hpp"
+#include "qflow/config.hpp"
+#include "qflow/field-math.hpp"
 #include <queue>
-#include "localsat.hpp"
-#include "pcg32/pcg32.h"
+#include "qflow/localsat.hpp"
+#include "qflow/pcg32/pcg32.h"
 #ifdef WITH_TBB
 #  include "tbb/tbb.h"
 #  include "pss/parallel_stable_sort.h"

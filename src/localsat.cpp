@@ -2,10 +2,10 @@
 #undef NDEBUG
 #endif
 
-#include "localsat.hpp"
-#include "config.hpp"
-#include "dedge.hpp"
-#include "field-math.hpp"
+#include "qflow/localsat.hpp"
+#include "qflow/config.hpp"
+#include "qflow/dedge.hpp"
+#include "qflow/field-math.hpp"
 
 #include <Eigen/Core>
 

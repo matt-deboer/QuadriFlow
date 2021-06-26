@@ -1,6 +1,6 @@
 #include <glm/glm.hpp>
 #include <cuda_runtime.h>
-#include "AdjacentMatrix.h"
+#include "qflow/AdjacentMatrix.h"
 
 __device__ __host__ glm::dvec3
 middle_point(const glm::dvec3 &p0, const glm::dvec3 &n0, const glm::dvec3 &p1, const glm::dvec3 &n1) {

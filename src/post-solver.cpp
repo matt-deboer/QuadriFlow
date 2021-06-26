@@ -10,11 +10,11 @@
 #include <cstdio>
 #include <string>
 
-#include "ceres/ceres.h"
-#include "ceres/rotation.h"
+#include "qflow/ceres/ceres.h"
+#include "qflow/ceres/rotation.h"
 
-#include "post-solver.hpp"
-#include "serialize.hpp"
+#include "qflow/post-solver.hpp"
+#include "qflow/serialize.hpp"
 
 namespace qflow {
 

@@ -68,6 +68,7 @@ if(MSVC)
 endif()
 
 
+include_directories(include)
 include_directories(src)
 include_directories(3rd/pcg32)
 include_directories(3rd/pss)

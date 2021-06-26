@@ -6,7 +6,7 @@
 #include <map>
 #include <vector>
 
-#include "config.hpp"
+#include "qflow/config.hpp"
 
 #include <boost/graph/adjacency_list.hpp>
 #include <boost/graph/boykov_kolmogorov_max_flow.hpp>

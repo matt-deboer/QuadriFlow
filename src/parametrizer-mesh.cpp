@@ -1,11 +1,11 @@
-#include "config.hpp"
-#include "dedge.hpp"
-#include "field-math.hpp"
-#include "loader.hpp"
-#include "merge-vertex.hpp"
-#include "parametrizer.hpp"
-#include "subdivide.hpp"
-#include "dedge.hpp"
+#include "qflow/config.hpp"
+#include "qflow/dedge.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/loader.hpp"
+#include "qflow/merge-vertex.hpp"
+#include "qflow/parametrizer.hpp"
+#include "qflow/subdivide.hpp"
+#include "qflow/dedge.hpp"
 #include <queue>
 
 namespace qflow {

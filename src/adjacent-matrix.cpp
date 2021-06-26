@@ -1,6 +1,6 @@
-#include "config.hpp"
-#include "adjacent-matrix.hpp"
-#include "dedge.hpp"
+#include "qflow/config.hpp"
+#include "qflow/adjacent-matrix.hpp"
+#include "qflow/dedge.hpp"
 #include <fstream>
 
 namespace qflow {

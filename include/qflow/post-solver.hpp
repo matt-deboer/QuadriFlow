@@ -10,7 +10,7 @@
 
 #include <Eigen/Core>
 #include <vector>
-#include "disajoint-tree.hpp"
+#include "qflow/disajoint-tree.hpp"
 
 namespace qflow {
 

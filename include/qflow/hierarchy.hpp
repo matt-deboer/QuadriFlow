@@ -7,9 +7,9 @@
 
 #include <map>
 #include <vector>
-#include "adjacent-matrix.hpp"
-#include "config.hpp"
-#include "serialize.hpp"
+#include "qflow/adjacent-matrix.hpp"
+#include "qflow/config.hpp"
+#include "qflow/serialize.hpp"
 #define RCPOVERFLOW 2.93873587705571876e-39f
 
 using namespace Eigen;

@@ -1,6 +1,6 @@
-#include "merge-vertex.hpp"
+#include "qflow/merge-vertex.hpp"
 
-#include "compare-key.hpp"
+#include "qflow/compare-key.hpp"
 
 #include <map>
 #include <vector>

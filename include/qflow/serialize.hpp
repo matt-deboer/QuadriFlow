@@ -6,7 +6,7 @@
 #include <map>
 #include <set>
 #include <vector>
-#include "adjacent-matrix.hpp"
+#include "qflow/adjacent-matrix.hpp"
 
 namespace qflow {
 

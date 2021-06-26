@@ -1,8 +1,8 @@
 #ifndef OPTIMIZER_H_
 #define OPTIMIZER_H_
-#include "config.hpp"
-#include "field-math.hpp"
-#include "hierarchy.hpp"
+#include "qflow/config.hpp"
+#include "qflow/field-math.hpp"
+#include "qflow/hierarchy.hpp"
 
 namespace qflow {
 

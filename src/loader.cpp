@@ -3,10 +3,10 @@
 //  Loop
 //
 //  Created by Jingwei on 10/22/17.
-//  Copyright © 2017 Jingwei. All rights reserved.
+//  Copyright ï¿½ 2017 Jingwei. All rights reserved.
 //
 
-#include "loader.hpp"
+#include "qflow/loader.hpp"
 
 #include <fstream>
 #include <unordered_map>

@@ -1,7 +1,7 @@
 #include <Eigen/Core>
 #include <Eigen/Dense>
 
-#include "parametrizer.hpp"
+#include "qflow/parametrizer.hpp"
 using namespace Eigen;
 
 namespace qflow {
