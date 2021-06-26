@@ -6,7 +6,7 @@
 #include "qflow/field-math.hpp"
 #include <queue>
 #include "qflow/localsat.hpp"
-#include "qflow/pcg32/pcg32.h"
+#include "pcg32/pcg32.h"
 #ifdef WITH_TBB
 #  include "tbb/tbb.h"
 #  include "pss/parallel_stable_sort.h"
