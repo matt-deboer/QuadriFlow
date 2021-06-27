@@ -123,7 +123,6 @@ set(
     include/qflow/loader.hpp
     src/localsat.cpp
     include/qflow/localsat.hpp
-    src/main.cpp
     src/merge-vertex.cpp
     include/qflow/merge-vertex.hpp
     src/optimizer.cpp
