@@ -148,7 +148,7 @@ else()
     add_library(quadriflow STATIC ${quadriflow_SRC})
 endif()
 
-target_include_directories(quadriflow INTERFACE include)
+target_include_directories(quadriflow PUBLIC include)
 
 target_link_libraries(
     quadriflow
