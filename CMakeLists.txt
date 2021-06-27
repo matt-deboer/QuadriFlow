@@ -140,6 +140,12 @@ set(
     include/qflow/subdivide.hpp
 )
 
+if (BUILD_SHARED_LIBS)
+    add_library(quadriflow SHARED ${quadriflow_SRC})
+else()
+    add_library(quadriflow STATIC ${quadriflow_SRC})
+endif()
+
 add_executable(
     quadriflow
     ${quadriflow_SRC}
@@ -151,3 +157,7 @@ target_link_libraries(
     ${LEMON_LIBRARIES}
     ${GUROBI_LIBRARIES}
 )
+
+add_executable(quadriflow-bin src/main.cpp)
+set_target_properties(quadriflow-bin PROPERTIES OUTPUT_NAME quadriflow)
+target_link_libraries(quadriflow-bin PRIVATE quadriflow)
