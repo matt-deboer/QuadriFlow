@@ -145,11 +145,6 @@ else()
     add_library(quadriflow STATIC ${quadriflow_SRC})
 endif()
 
-add_executable(
-    quadriflow
-    ${quadriflow_SRC}
-)
-
 target_link_libraries(
     quadriflow
     ${TBB_LIBRARIES}
