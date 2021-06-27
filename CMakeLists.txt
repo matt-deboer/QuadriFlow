@@ -68,8 +68,8 @@ if(MSVC)
 endif()
 
 
-include_directories(include)
-include_directories(src)
+# include_directories(include)
+# include_directories(src)
 include_directories(3rd/pcg32)
 include_directories(3rd/pss)
 include_directories(${Boost_INCLUDE_DIRS})
@@ -104,39 +104,42 @@ if (BUILD_FREE_LICENSE)
     add_definitions(-DEIGEN_MPL2_ONLY)
 endif(BUILD_FREE_LICENSE)
 
+# set(
+#     quadriflow_INCLUDES
+#     include/qflow/adjacent-matrix.hpp
+#     include/qflow/compare-key.hpp
+#     include/qflow/config.hpp
+#     include/qflow/dedge.hpp
+#     include/qflow/disajoint-tree.hpp
+#     include/qflow/dset.hpp
+#     include/qflow/field-math.hpp
+#     include/qflow/flow.hpp
+#     include/qflow/hierarchy.hpp
+#     include/qflow/loader.hpp
+#     include/qflow/localsat.hpp
+#     include/qflow/merge-vertex.hpp
+#     include/qflow/optimizer.hpp
+#     include/qflow/parametrizer.hpp
+#     include/qflow/serialize.hpp
+#     include/qflow/subdivide.hpp
+# )
 
 set(
     quadriflow_SRC
     src/adjacent-matrix.cpp
-    include/qflow/adjacent-matrix.hpp
-    include/qflow/compare-key.hpp
-    include/qflow/config.hpp
     src/dedge.cpp
-    include/qflow/dedge.hpp
-    include/qflow/disajoint-tree.hpp
-    include/qflow/dset.hpp
-    include/qflow/field-math.hpp
-    include/qflow/flow.hpp
     src/hierarchy.cpp
-    include/qflow/hierarchy.hpp
     src/loader.cpp
-    include/qflow/loader.hpp
     src/localsat.cpp
-    include/qflow/localsat.hpp
     src/merge-vertex.cpp
-    include/qflow/merge-vertex.hpp
     src/optimizer.cpp
-    include/qflow/optimizer.hpp
     src/parametrizer.cpp
     src/parametrizer-flip.cpp
     src/parametrizer-int.cpp
     src/parametrizer-mesh.cpp
     src/parametrizer-scale.cpp
     src/parametrizer-sing.cpp
-    include/qflow/parametrizer.hpp
-    include/qflow/serialize.hpp
     src/subdivide.cpp
-    include/qflow/subdivide.hpp
 )
 
 if (BUILD_SHARED_LIBS)
@@ -144,6 +147,8 @@ if (BUILD_SHARED_LIBS)
 else()
     add_library(quadriflow STATIC ${quadriflow_SRC})
 endif()
+
+target_include_directories(quadriflow INTERFACE include)
 
 target_link_libraries(
     quadriflow
